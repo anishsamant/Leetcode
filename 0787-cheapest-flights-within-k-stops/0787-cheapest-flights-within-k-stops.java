@@ -3,27 +3,31 @@ public class Solution {
         int[] prices = new int[n];
         Arrays.fill(prices, Integer.MAX_VALUE);
         prices[src] = 0;
-
-        for (int i = 0; i <= k; i++) {
-            int[] tmpPrices = Arrays.copyOf(prices, n);
-
-            for (int[] flight : flights) {
-                int s = flight[0];
-                int d = flight[1];
-                int p = flight[2];
-
-                if (prices[s] == Integer.MAX_VALUE) {
-                    continue;
-                }
-
-                if (prices[s] + p < tmpPrices[d]) {
-                    tmpPrices[d] = prices[s] + p;
-                }
-            }
-
-            prices = tmpPrices;
+        List<int[]>[] adj = new ArrayList[n];
+        for (int i = 0; i < n; i++) {
+            adj[i] = new ArrayList<>();
+        }
+        for (var flight : flights) {
+            adj[flight[0]].add(new int[] { flight[1], flight[2] });
         }
 
+        Queue<int[]> q = new LinkedList<>();
+        q.offer(new int[] { 0, src, 0 });
+
+        while (!q.isEmpty()) {
+            var curr = q.poll();
+            int cst = curr[0], node = curr[1], stops = curr[2];
+            if (stops > k) continue;
+
+            for (var neighbor : adj[node]) {
+                int nei = neighbor[0], w = neighbor[1];
+                int nextCost = cst + w;
+                if (nextCost < prices[nei]) {
+                    prices[nei] = nextCost;
+                    q.offer(new int[] { nextCost, nei, stops + 1 });
+                }
+            }
+        }
         return prices[dst] == Integer.MAX_VALUE ? -1 : prices[dst];
     }
 }

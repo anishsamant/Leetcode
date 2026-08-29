@@ -1,22 +1,47 @@
 class Solution {
+    class Node {
+        Node[] children = new Node[26];
+        // Cache the top 3 products directly in the node
+        List<String> suggestions = new ArrayList<>(); 
+    }
+
     public List<List<String>> suggestedProducts(String[] products, String searchWord) {
-        List<List<String>> res = new ArrayList<>();
-        StringBuilder sb = new StringBuilder();
-        Arrays.sort(products);
-        int l = 0, r = products.length - 1;
-        int i = 0;
-        for (char c: searchWord.toCharArray()) {
-            while (l <= r && (products[l].length() <= i || products[l].charAt(i) != c)) l++;
-
-            while (l <= r && (products[r].length() <= i || products[r].charAt(i) != c)) r--;
-
-            List<String> prod = new ArrayList<>();
-            for(int j = 0; j < 3 && l + j <= r; j++) {
-                prod.add(products[l + j]);
+        // 1. Sort upfront so insertions happen in alphabetical order
+        Arrays.sort(products); 
+        
+        Node root = new Node();
+        
+        // 2. Build Trie and cache products
+        for (String product : products) {
+            Node curr = root;
+            for (char c : product.toCharArray()) {
+                int index = c - 'a';
+                if (curr.children[index] == null) {
+                    curr.children[index] = new Node();
+                }
+                curr = curr.children[index];
+                // Since products are sorted, the first 3 to hit this node are the correct ones
+                if (curr.suggestions.size() < 3) {
+                    curr.suggestions.add(product);
+                }
             }
+        }
 
-            res.add(prod);
-            i++;
+        List<List<String>> res = new ArrayList<>();
+        Node curr = root;
+        
+        // 3. Search step: No DFS, no re-traversal from root
+        for (char c : searchWord.toCharArray()) {
+            int index = c - 'a';
+            if (curr != null) {
+                curr = curr.children[index]; // Move down one step sequentially
+            }
+            
+            if (curr == null) {
+                res.add(new ArrayList<>()); // No matches possible anymore
+            } else {
+                res.add(curr.suggestions); // Instant O(1) lookup!
+            }
         }
 
         return res;

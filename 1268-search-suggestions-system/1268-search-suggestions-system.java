@@ -1,33 +1,22 @@
 class Solution {
     public List<List<String>> suggestedProducts(String[] products, String searchWord) {
-        Arrays.sort(products);
-
         List<List<String>> res = new ArrayList<>();
-        int left = 0;
-        int right = products.length - 1;
+        StringBuilder sb = new StringBuilder();
+        Arrays.sort(products);
+        int l = 0, r = products.length - 1;
+        int i = 0;
+        for (char c: searchWord.toCharArray()) {
+            while (l <= r && (products[l].length() <= i || products[l].charAt(i) != c)) l++;
 
-        for (int i = 0; i < searchWord.length(); i++) {
-            char ch = searchWord.charAt(i);
+            while (l <= r && (products[r].length() <= i || products[r].charAt(i) != c)) r--;
 
-            while (left <= right &&
-                    (products[left].length() <= i ||
-                            products[left].charAt(i) != ch)) {
-                left++;
+            List<String> prod = new ArrayList<>();
+            for(int j = 0; j < 3 && l + j <= r; j++) {
+                prod.add(products[l + j]);
             }
 
-            while (left <= right &&
-                    (products[right].length() <= i ||
-                            products[right].charAt(i) != ch)) {
-                right--;
-            }
-
-            List<String> list = new ArrayList<>();
-
-            for (int j = 0; j < 3 && left + j <= right; j++) {
-                list.add(products[left + j]);
-            }
-
-            res.add(list);
+            res.add(prod);
+            i++;
         }
 
         return res;

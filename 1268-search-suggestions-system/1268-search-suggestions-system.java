@@ -1,49 +1,56 @@
-class Solution {
+class Trie {
     class Node {
         Node[] children = new Node[26];
-        // Cache the top 3 products directly in the node
-        List<String> suggestions = new ArrayList<>(); 
+        List<String> suggestions = new ArrayList<>();
     }
 
-    public List<List<String>> suggestedProducts(String[] products, String searchWord) {
-        // 1. Sort upfront so insertions happen in alphabetical order
-        Arrays.sort(products); 
-        
-        Node root = new Node();
-        
-        // 2. Build Trie and cache products
-        for (String product : products) {
-            Node curr = root;
-            for (char c : product.toCharArray()) {
-                int index = c - 'a';
-                if (curr.children[index] == null) {
-                    curr.children[index] = new Node();
-                }
-                curr = curr.children[index];
-                // Since products are sorted, the first 3 to hit this node are the correct ones
-                if (curr.suggestions.size() < 3) {
-                    curr.suggestions.add(product);
-                }
-            }
-        }
+    Node root;
 
-        List<List<String>> res = new ArrayList<>();
+    Trie() {
+        root = new Node();
+    }
+
+    public void insert(String word) {
         Node curr = root;
-        
-        // 3. Search step: No DFS, no re-traversal from root
+        for (char c : word.toCharArray()) {
+            int index = c - 'a';
+            if (curr.children[index] == null) {
+                curr.children[index] = new Node();
+            }
+
+            curr = curr.children[index];
+            if (curr.suggestions.size() < 3) curr.suggestions.add(word);
+        }
+    }
+
+    public List<List<String>> getWordsStartingWith(String searchWord) {
+        Node curr = root;
+        List<List<String>> res = new ArrayList<>();
         for (char c : searchWord.toCharArray()) {
             int index = c - 'a';
             if (curr != null) {
-                curr = curr.children[index]; // Move down one step sequentially
+                curr = curr.children[index];
             }
-            
+
             if (curr == null) {
-                res.add(new ArrayList<>()); // No matches possible anymore
+                res.add(new ArrayList<>());
             } else {
-                res.add(curr.suggestions); // Instant O(1) lookup!
+                res.add(curr.suggestions);
             }
         }
 
         return res;
+    }
+}
+
+class Solution {
+    public List<List<String>> suggestedProducts(String[] products, String searchWord) {
+        Arrays.sort(products);
+        Trie trie = new Trie();
+        for (String product : products) {
+            trie.insert(product);
+        }
+        
+        return trie.getWordsStartingWith(searchWord);
     }
 }

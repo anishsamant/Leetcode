@@ -125,4 +125,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/anishsamant/Leetcode/tree/master/0200-number-of-islands) |
+## Enumeration
+|  |
+| ------- |
+| [1291-sequential-digits](https://github.com/anishsamant/Leetcode/tree/master/1291-sequential-digits) |
 <!---LeetCode Topics End-->

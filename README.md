@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0767-reorganize-string](https://github.com/anishsamant/Leetcode/tree/master/0767-reorganize-string) |
 | [1603-design-parking-system](https://github.com/anishsamant/Leetcode/tree/master/1603-design-parking-system) |
 ## Array
 |  |
@@ -22,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/anishsamant/Leetcode/tree/master/0049-group-anagrams) |
+| [0767-reorganize-string](https://github.com/anishsamant/Leetcode/tree/master/0767-reorganize-string) |
 | [1268-search-suggestions-system](https://github.com/anishsamant/Leetcode/tree/master/1268-search-suggestions-system) |
 ## Binary Search
 |  |
@@ -35,18 +37,25 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/anishsamant/Leetcode/tree/master/0049-group-anagrams) |
+| [0767-reorganize-string](https://github.com/anishsamant/Leetcode/tree/master/0767-reorganize-string) |
 | [1268-search-suggestions-system](https://github.com/anishsamant/Leetcode/tree/master/1268-search-suggestions-system) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0767-reorganize-string](https://github.com/anishsamant/Leetcode/tree/master/0767-reorganize-string) |
 | [1268-search-suggestions-system](https://github.com/anishsamant/Leetcode/tree/master/1268-search-suggestions-system) |
 ## Hash Table
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/anishsamant/Leetcode/tree/master/0049-group-anagrams) |
 | [0138-copy-list-with-random-pointer](https://github.com/anishsamant/Leetcode/tree/master/0138-copy-list-with-random-pointer) |
+| [0767-reorganize-string](https://github.com/anishsamant/Leetcode/tree/master/0767-reorganize-string) |
 ## Linked List
 |  |
 | ------- |
 | [0138-copy-list-with-random-pointer](https://github.com/anishsamant/Leetcode/tree/master/0138-copy-list-with-random-pointer) |
+## Greedy
+|  |
+| ------- |
+| [0767-reorganize-string](https://github.com/anishsamant/Leetcode/tree/master/0767-reorganize-string) |
 <!---LeetCode Topics End-->

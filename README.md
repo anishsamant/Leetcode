@@ -44,4 +44,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/anishsamant/Leetcode/tree/master/0049-group-anagrams) |
+| [0138-copy-list-with-random-pointer](https://github.com/anishsamant/Leetcode/tree/master/0138-copy-list-with-random-pointer) |
+## Linked List
+|  |
+| ------- |
+| [0138-copy-list-with-random-pointer](https://github.com/anishsamant/Leetcode/tree/master/0138-copy-list-with-random-pointer) |
 <!---LeetCode Topics End-->

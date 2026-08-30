@@ -37,6 +37,7 @@ class Solution {
             for (int j = 0; j < n; j++) {
                 if (grid[i][j] == '1') {
                     count++;
+                    grid[i][j] = '0';
                     dfs(grid, i, j);
                     // bfs(grid, i, j);
                 }

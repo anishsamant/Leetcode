@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/anishsamant/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0049-group-anagrams](https://github.com/anishsamant/Leetcode/tree/master/0049-group-anagrams) |
 | [0200-number-of-islands](https://github.com/anishsamant/Leetcode/tree/master/0200-number-of-islands) |
+| [0253-meeting-rooms-ii](https://github.com/anishsamant/Leetcode/tree/master/0253-meeting-rooms-ii) |
 | [1268-search-suggestions-system](https://github.com/anishsamant/Leetcode/tree/master/1268-search-suggestions-system) |
 | [2221-find-triangular-sum-of-an-array](https://github.com/anishsamant/Leetcode/tree/master/2221-find-triangular-sum-of-an-array) |
 ## String
@@ -43,11 +44,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/anishsamant/Leetcode/tree/master/0049-group-anagrams) |
+| [0253-meeting-rooms-ii](https://github.com/anishsamant/Leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0767-reorganize-string](https://github.com/anishsamant/Leetcode/tree/master/0767-reorganize-string) |
 | [1268-search-suggestions-system](https://github.com/anishsamant/Leetcode/tree/master/1268-search-suggestions-system) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0253-meeting-rooms-ii](https://github.com/anishsamant/Leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0767-reorganize-string](https://github.com/anishsamant/Leetcode/tree/master/0767-reorganize-string) |
 | [1268-search-suggestions-system](https://github.com/anishsamant/Leetcode/tree/master/1268-search-suggestions-system) |
 ## Hash Table
@@ -65,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0253-meeting-rooms-ii](https://github.com/anishsamant/Leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0767-reorganize-string](https://github.com/anishsamant/Leetcode/tree/master/0767-reorganize-string) |
 ## Math
 |  |
@@ -86,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0253-meeting-rooms-ii](https://github.com/anishsamant/Leetcode/tree/master/0253-meeting-rooms-ii) |
 | [2222-number-of-ways-to-select-buildings](https://github.com/anishsamant/Leetcode/tree/master/2222-number-of-ways-to-select-buildings) |
 ## Doubly-Linked List
 |  |
@@ -95,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/anishsamant/Leetcode/tree/master/0042-trapping-rain-water) |
+| [0253-meeting-rooms-ii](https://github.com/anishsamant/Leetcode/tree/master/0253-meeting-rooms-ii) |
 ## Stack
 |  |
 | ------- |

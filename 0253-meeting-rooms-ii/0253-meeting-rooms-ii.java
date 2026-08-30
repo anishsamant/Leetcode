@@ -1,26 +1,13 @@
 class Solution {
-
-    private int getMin(List<Integer> endTimes) {
-        int min = endTimes.get(0);
-        for (int i = 0; i < endTimes.size(); i++) {
-            min = Math.min(min, endTimes.get(i));
-        }
-
-        return min;
-    }
-
     public int minMeetingRooms(int[][] intervals) {
         Arrays.sort(intervals, (a,b) -> a[0] - b[0]);
-        List<Integer> endTimes = new ArrayList<>();
+        PriorityQueue<Integer> endTimes = new PriorityQueue<>();
         for (int[] interval : intervals) {
-            if (endTimes.size() > 0) {
-                int min = getMin(endTimes);
-                if (min <= interval[0]) {
-                    endTimes.remove(Integer.valueOf(min));
-                }
+            if (endTimes.size() > 0 && endTimes.peek() <= interval[0]) {
+                endTimes.poll();
             }
            
-            endTimes.add(interval[1]);
+            endTimes.offer(interval[1]);
         }
 
         return endTimes.size();

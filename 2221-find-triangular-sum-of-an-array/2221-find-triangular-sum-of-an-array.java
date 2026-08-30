@@ -8,7 +8,7 @@ class Solution {
             for (int j = 0; j < nums.length - 1; j++) {
                 newNums[j] = (nums[j] + nums[j + 1]) % 10;
             }
-            nums = Arrays.copyOf(newNums, newNums.length);
+            nums = newNums;
         } 
         
 

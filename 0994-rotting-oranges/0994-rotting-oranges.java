@@ -19,7 +19,7 @@ class Solution {
         int[] divider = new int[]{-1, -1};
 
         myQueue.offer(divider);
-        int minutes = 0;
+        int minutes = -1;
 
         while (!myQueue.isEmpty()) {
             int[] curr = myQueue.poll();
@@ -39,6 +39,6 @@ class Solution {
             }
         }
 
-        return freshOranges == 0 ? minutes - 1 : -1;
+        return freshOranges == 0 ? minutes : -1;
     }
 }

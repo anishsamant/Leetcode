@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/anishsamant/Leetcode/tree/master/0146-lru-cache) |
 | [1603-design-parking-system](https://github.com/anishsamant/Leetcode/tree/master/1603-design-parking-system) |
 ## Simulation
 |  |
@@ -52,11 +53,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0049-group-anagrams](https://github.com/anishsamant/Leetcode/tree/master/0049-group-anagrams) |
 | [0138-copy-list-with-random-pointer](https://github.com/anishsamant/Leetcode/tree/master/0138-copy-list-with-random-pointer) |
+| [0146-lru-cache](https://github.com/anishsamant/Leetcode/tree/master/0146-lru-cache) |
 | [0767-reorganize-string](https://github.com/anishsamant/Leetcode/tree/master/0767-reorganize-string) |
 ## Linked List
 |  |
 | ------- |
 | [0138-copy-list-with-random-pointer](https://github.com/anishsamant/Leetcode/tree/master/0138-copy-list-with-random-pointer) |
+| [0146-lru-cache](https://github.com/anishsamant/Leetcode/tree/master/0146-lru-cache) |
 ## Greedy
 |  |
 | ------- |
@@ -81,4 +84,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2222-number-of-ways-to-select-buildings](https://github.com/anishsamant/Leetcode/tree/master/2222-number-of-ways-to-select-buildings) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/anishsamant/Leetcode/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->

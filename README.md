@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/anishsamant/Leetcode/tree/master/0049-group-anagrams) |
 | [0767-reorganize-string](https://github.com/anishsamant/Leetcode/tree/master/0767-reorganize-string) |
 | [1268-search-suggestions-system](https://github.com/anishsamant/Leetcode/tree/master/1268-search-suggestions-system) |
+| [2222-number-of-ways-to-select-buildings](https://github.com/anishsamant/Leetcode/tree/master/2222-number-of-ways-to-select-buildings) |
 ## Binary Search
 |  |
 | ------- |
@@ -72,4 +73,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2221-find-triangular-sum-of-an-array](https://github.com/anishsamant/Leetcode/tree/master/2221-find-triangular-sum-of-an-array) |
+## Dynamic Programming
+|  |
+| ------- |
+| [2222-number-of-ways-to-select-buildings](https://github.com/anishsamant/Leetcode/tree/master/2222-number-of-ways-to-select-buildings) |
+## Prefix Sum
+|  |
+| ------- |
+| [2222-number-of-ways-to-select-buildings](https://github.com/anishsamant/Leetcode/tree/master/2222-number-of-ways-to-select-buildings) |
 <!---LeetCode Topics End-->

@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/anishsamant/Leetcode/tree/master/0049-group-anagrams) |
 | [0200-number-of-islands](https://github.com/anishsamant/Leetcode/tree/master/0200-number-of-islands) |
 | [0253-meeting-rooms-ii](https://github.com/anishsamant/Leetcode/tree/master/0253-meeting-rooms-ii) |
+| [0994-rotting-oranges](https://github.com/anishsamant/Leetcode/tree/master/0994-rotting-oranges) |
 | [1268-search-suggestions-system](https://github.com/anishsamant/Leetcode/tree/master/1268-search-suggestions-system) |
 | [2221-find-triangular-sum-of-an-array](https://github.com/anishsamant/Leetcode/tree/master/2221-find-triangular-sum-of-an-array) |
 ## String
@@ -117,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/anishsamant/Leetcode/tree/master/0200-number-of-islands) |
+| [0994-rotting-oranges](https://github.com/anishsamant/Leetcode/tree/master/0994-rotting-oranges) |
 ## Union-Find
 |  |
 | ------- |
@@ -125,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/anishsamant/Leetcode/tree/master/0200-number-of-islands) |
+| [0994-rotting-oranges](https://github.com/anishsamant/Leetcode/tree/master/0994-rotting-oranges) |
 ## Enumeration
 |  |
 | ------- |

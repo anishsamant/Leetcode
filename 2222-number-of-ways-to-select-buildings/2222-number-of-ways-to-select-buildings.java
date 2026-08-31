@@ -12,7 +12,7 @@ class Solution {
         if (s.charAt(0) == '0') currZeros++;
         else currOnes++;
 
-        for (int i = 1; i < s.length(); i++) {
+        for (int i = 1; i < s.length() - 1; i++) {
             if (s.charAt(i) == '0') {
                 res += (currOnes * (cnt[1] - currOnes));
                 currZeros++;

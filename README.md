@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/anishsamant/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0049-group-anagrams](https://github.com/anishsamant/Leetcode/tree/master/0049-group-anagrams) |
 | [0200-number-of-islands](https://github.com/anishsamant/Leetcode/tree/master/0200-number-of-islands) |
+| [0239-sliding-window-maximum](https://github.com/anishsamant/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0253-meeting-rooms-ii](https://github.com/anishsamant/Leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0994-rotting-oranges](https://github.com/anishsamant/Leetcode/tree/master/0994-rotting-oranges) |
 | [1268-search-suggestions-system](https://github.com/anishsamant/Leetcode/tree/master/1268-search-suggestions-system) |
@@ -51,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/anishsamant/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0253-meeting-rooms-ii](https://github.com/anishsamant/Leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0767-reorganize-string](https://github.com/anishsamant/Leetcode/tree/master/0767-reorganize-string) |
 | [1268-search-suggestions-system](https://github.com/anishsamant/Leetcode/tree/master/1268-search-suggestions-system) |
@@ -132,4 +134,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1291-sequential-digits](https://github.com/anishsamant/Leetcode/tree/master/1291-sequential-digits) |
+## Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/anishsamant/Leetcode/tree/master/0239-sliding-window-maximum) |
+## Sliding Window
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/anishsamant/Leetcode/tree/master/0239-sliding-window-maximum) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/anishsamant/Leetcode/tree/master/0239-sliding-window-maximum) |
+## Range Minimum/Maximum Query
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/anishsamant/Leetcode/tree/master/0239-sliding-window-maximum) |
 <!---LeetCode Topics End-->

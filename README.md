@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/anishsamant/Leetcode/tree/master/0049-group-anagrams) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/anishsamant/Leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0767-reorganize-string](https://github.com/anishsamant/Leetcode/tree/master/0767-reorganize-string) |
+| [1047-remove-all-adjacent-duplicates-in-string](https://github.com/anishsamant/Leetcode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1268-search-suggestions-system](https://github.com/anishsamant/Leetcode/tree/master/1268-search-suggestions-system) |
 | [2222-number-of-ways-to-select-buildings](https://github.com/anishsamant/Leetcode/tree/master/2222-number-of-ways-to-select-buildings) |
 ## Binary Search
@@ -122,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/anishsamant/Leetcode/tree/master/0042-trapping-rain-water) |
+| [1047-remove-all-adjacent-duplicates-in-string](https://github.com/anishsamant/Leetcode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 ## Monotonic Stack
 |  |
 | ------- |

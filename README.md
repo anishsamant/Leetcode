@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/anishsamant/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0042-trapping-rain-water](https://github.com/anishsamant/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0049-group-anagrams](https://github.com/anishsamant/Leetcode/tree/master/0049-group-anagrams) |
+| [0080-remove-duplicates-from-sorted-array-ii](https://github.com/anishsamant/Leetcode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0200-number-of-islands](https://github.com/anishsamant/Leetcode/tree/master/0200-number-of-islands) |
 | [0215-kth-largest-element-in-an-array](https://github.com/anishsamant/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/anishsamant/Leetcode/tree/master/0239-sliding-window-maximum) |
@@ -122,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/anishsamant/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0042-trapping-rain-water](https://github.com/anishsamant/Leetcode/tree/master/0042-trapping-rain-water) |
+| [0080-remove-duplicates-from-sorted-array-ii](https://github.com/anishsamant/Leetcode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0253-meeting-rooms-ii](https://github.com/anishsamant/Leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0295-find-median-from-data-stream](https://github.com/anishsamant/Leetcode/tree/master/0295-find-median-from-data-stream) |
 ## Stack

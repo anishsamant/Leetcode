@@ -1,7 +1,7 @@
 class Solution {
     public String removeDuplicateLetters(String s) {
         Deque<Character> myQueue = new ArrayDeque<>();
-        Set<Character> seen = new HashSet<>();
+        int[] seen = new int[26];
 
         Map<Character, Integer> lastOccurence = new HashMap<>();
         for (int i = 0; i < s.length(); i++) {
@@ -11,12 +11,13 @@ class Solution {
         for (int i = 0; i < s.length(); i++) {
             char curr = s.charAt(i);
             
-            if (!seen.contains(curr)) {
+            if (seen[curr - 'a'] == 0) {
                 while (!myQueue.isEmpty() && curr < myQueue.peekLast() && lastOccurence.get(myQueue.peekLast()) > i) {
-                    seen.remove(myQueue.pollLast());
+                    char top = myQueue.pollLast();
+                    seen[top - 'a'] = 0;
                 }
                 myQueue.offerLast(curr);
-                seen.add(curr);
+                seen[curr - 'a'] = 1;
             }
 
         }
